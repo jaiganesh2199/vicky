@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+.main .box1 {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  background-color: blue;
+}
+.main .box2 {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  background-color: red;
+}/*# sourceMappingURL=web.css.map */
