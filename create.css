@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+.nav-bar2, .nav-bar, .main .par .btn, .main .par {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-image: url("https://preview.colorlib.com/theme/create/images/hero_1.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+}
+.main .par {
+  height: 300px;
+  width: 700px;
+  flex-direction: column;
+  font-size: 16px;
+  padding: 40px;
+}
+.main .par .we {
+  font-size: 2.5em;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+.main .par .web {
+  color: white;
+  margin: 5px;
+  text-align: center;
+  margin: 5px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.main .par .color {
+  color: rgb(14, 219, 219);
+}
+.main .par .btn {
+  height: 50px;
+  width: 150px;
+  font-size: medium;
+  border-radius: 30px;
+  background-color: aqua;
+  margin: 20px;
+}
+
+@media (max-width: 700px) {
+  .par {
+    flex-direction: column;
+    height: 200px;
+    font-size: 15px;
+  }
+  .btn {
+    height: 50%;
+  }
+}
+.nav-bar {
+  width: 100vw;
+  justify-content: space-between;
+  background-color: rgba(15, 14, 14, 0.635);
+}
+
+.phone {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.phone .pp {
+  margin: 0 10px;
+}
+.phone .pp span {
+  color: aqua;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  color: aqua;
+  font-weight: bold;
+}
+.icons .in {
+  font-size: large;
+}
+.icons .insta {
+  font-size: medium;
+}
+.icons .icon {
+  padding: 15px;
+}
+
+@media (max-width: 700px) {
+  .nav-bar {
+    flex-direction: column;
+    height: 200px;
+  }
+  .icons {
+    flex-direction: column;
+  }
+}
+.nav-bar2 {
+  height: 90px;
+  width: 100vw;
+  justify-content: space-between;
+  padding: 0px 60px;
+  background-color: white;
+}
+.nav-bar2 .create {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+.nav-bar2 .menu {
+  font-size: 25px;
+}
+
+.page2 {
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid black;
+}/*# sourceMappingURL=create.css.map */
