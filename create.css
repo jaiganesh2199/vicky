@@ -125,5 +125,83 @@
 .page2 {
   width: 100vw;
   height: 100vh;
-  border: 2px solid black;
+  padding: 70px 50px;
+}
+.page2 .main2 {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.page2 .main2 .ph1 {
+  height: 300px;
+  width: 250px;
+  margin: 20px;
+}
+.page2 .main2 .ph1 h1 {
+  color: aqua;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+}
+.page2 .main2 .ph1 .words {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(95, 88, 88);
+}
+.page2 .main2 .ph1 .option {
+  align-items: left;
+}
+.page2 .main2 .ph1 .option li {
+  list-style: none;
+  padding: 10px 0px;
+}
+.page2 .main2 .ph1 .option li span {
+  color: aqua;
+}
+.page2 .ph2 {
+  height: 300px;
+  width: 250px;
+  margin: 20px;
+}
+.page2 .ph2 h1 {
+  color: aqua;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+}
+.page2 .ph2 .words {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(95, 88, 88);
+}
+.page2 .ph2 .option1 {
+  align-items: left;
+}
+.page2 .ph2 .option1 li {
+  list-style: none;
+  padding: 10px 0px;
+}
+.page2 .ph2 .option1 li span {
+  color: aqua;
+}
+.page2 .ph3 {
+  height: 300px;
+  width: 250px;
+  margin: 20px;
+}
+.page2 .ph3 h1 {
+  color: aqua;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+}
+.page2 .ph3 .words {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(95, 88, 88);
+}
+.page2 .ph3 .option3 {
+  align-items: left;
+}
+.page2 .ph3 .option3 li {
+  list-style: none;
+  padding: 10px 0px;
+}
+.page2 .ph3 .option3 li span {
+  color: aqua;
 }/*# sourceMappingURL=create.css.map */
