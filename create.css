@@ -132,6 +132,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
 }
 .page2 .main2 .ph1 {
   height: 300px;
@@ -157,6 +158,11 @@
 .page2 .main2 .ph1 .option li span {
   color: aqua;
 }
+@media (max-width: 680px) {
+  .page2 .main2 .ph1 {
+    width: 450px;
+  }
+}
 .page2 .ph2 {
   height: 300px;
   width: 250px;
@@ -181,6 +187,11 @@
 .page2 .ph2 .option1 li span {
   color: aqua;
 }
+@media (max-width: 680px) {
+  .page2 .ph2 {
+    width: 450px;
+  }
+}
 .page2 .ph3 {
   height: 300px;
   width: 250px;
@@ -204,4 +215,9 @@
 }
 .page2 .ph3 .option3 li span {
   color: aqua;
+}
+@media (max-width: 680px) {
+  .page2 .ph3 {
+    width: 450px;
+  }
 }/*# sourceMappingURL=create.css.map */

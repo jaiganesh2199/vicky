@@ -142,6 +142,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 
     .ph1 {
       height: 300px;
@@ -169,6 +170,11 @@
             color: aqua;
           }
         }
+      }
+    }
+    @media (max-width: 680px) {
+      .ph1 {
+        width: 450px;
       }
     }
   }
@@ -201,6 +207,11 @@
       }
     }
   }
+  @media (max-width: 680px) {
+    .ph2 {
+      width: 450px;
+    }
+  }
 
   .ph3 {
     height: 300px;
@@ -228,6 +239,11 @@
           color: aqua;
         }
       }
+    }
+  }
+  @media (max-width: 680px) {
+    .ph3 {
+      width: 450px;
     }
   }
 }
