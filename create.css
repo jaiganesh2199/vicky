@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.nav-bar2, .nav-bar, .main .par .btn, .main .par {
+.page5, .page4 .main3, .page4, .page3 .box1 .work, .page3, .nav-bar2, .nav-bar, .main .par .btn, .main .par {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -220,4 +220,115 @@
   .page2 .ph3 {
     width: 450px;
   }
+}
+
+.page3 {
+  height: 30vh;
+  width: 100vw;
+}
+.page3 .box1 {
+  height: 80%;
+  width: 70%;
+}
+.page3 .box1 .work {
+  font-size: 50px;
+}
+.page3 .box1 .p {
+  margin: 10px 35px;
+  display: flex;
+  color: rgb(126, 122, 122);
+  justify-content: center;
+  align-items: justify;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.page4 {
+  height: 100vh;
+  width: 100vw;
+  padding: 70px 50px;
+}
+.page4 .main3 {
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+.page4 .main3 .box {
+  height: 60%;
+  width: 32%;
+  margin: 5px;
+}
+.page4 .main3 .a {
+  background-image: url("../vicky/img_1.jpg.webp");
+  background-size: cover;
+  background-position: center;
+}
+.page4 .main3 .b {
+  background-image: url("./img_2.jpg.webp");
+  background-size: cover;
+  background-position: center;
+}
+.page4 .main3 .c {
+  background-image: url("./img_3.jpg.webp");
+  background-size: cover;
+  background-position: center;
+}
+.page4 .main3 .d {
+  background-image: url("./img_4.jpg.webp");
+  background-size: cover;
+  background-position: center;
+}
+.page4 .main3 .e {
+  background-image: url("./img_5.jpg.webp");
+  background-size: cover;
+  background-position: center;
+}
+.page4 .main3 .f {
+  background-image: url("./img_6.jpg.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.page5 {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+.page5 .image {
+  height: 95%;
+  width: 95%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+.page5 .image .img {
+  height: 400px;
+  width: 400px;
+  background-size: contain;
+  background-position: center;
+  background-image: url("./about_1.jpg.webp");
+}
+.page5 .ini {
+  height: 95%;
+  width: 50%;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.page5 .ini h1 {
+  color: whitesmoke;
+}
+.page5 .ini h1 .msg {
+  color: white;
+}
+.page5 .ini .pg {
+  width: 40%;
+  color: rgb(97, 93, 93);
+  border: 1px solid white;
+  text-align: justify;
 }/*# sourceMappingURL=create.css.map */
